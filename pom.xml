@@ -84,10 +84,16 @@
 	</dependencies>
 	
         <distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://18.222.52.63:8081/nexus/content/repositories/snapshots/</url>
-  </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-31-51.us-east-2.compute.internal-releases</name>
+        <url>http://13.58.195.203:8081/artifactory/ING_bank</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-31-51.us-east-2.compute.internal-snapshots</name>
+        <url>http://13.58.195.203:8081/artifactory/ING_bank</url>
+    </snapshotRepository>
 </distributionManagement>
 
 
