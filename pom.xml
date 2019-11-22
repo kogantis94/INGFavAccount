@@ -85,7 +85,7 @@
 	
         <distributionManagement>
     <snapshotRepository>
-        <id>artifactory</id>
+        <id>nexus</id>
         <url>http://3.19.213.171:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
